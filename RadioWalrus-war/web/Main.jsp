@@ -16,7 +16,9 @@
     <body>
         <div id="header"><h1>RadioWalrus</h1></div>
         
-        <div id="radio">
+        <div id="radio"><h2>Radio</h2></div>
+        
+        <div id="rate">
             <h2>Radio und Bewertung</h2>
             <p>Hier wird einmal das Radio sein.</p>
             </br>
