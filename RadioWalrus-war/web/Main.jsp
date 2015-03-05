@@ -44,7 +44,7 @@
                 
                 <div id ="vote">
                     <h3>Voten</h3>
-                    <input type ="button" class="VoteButton" value="Queen - - - Killer Queen"><br>
+                    <input type ="button" class="VoteButton" value="Queen - - - Another One Bites the Dust"><br>
                     <input type ="button" class="VoteButton" value="Defrage - - - Save us from religion"><br>
                     <input type ="button" class="VoteButton" value="Alestorm - - - Rum"><br>
                     <input type ="button" class="VoteButton" value="Orden Ogan - - - Things we believe in"><br>
