@@ -14,30 +14,51 @@
         <link rel="stylesheet" type="text/css" href="Basic.css">
     </head>
     <body>
-        <div id="header"><h1>RadioWalrus</h1></div>
-        
-        <div id="radio"><h2>Radio</h2></div>
-        
-        <div id="rate">
-            <h2>Radio und Bewertung</h2>
-            <p>Hier wird einmal das Radio sein.</p>
-            </br>
-            </br>
-            <p>Hier wird einmal das Bewerten möglich sein.</p>
+        <div id="container">
+            <div id="header" >
+                <h1>RadioWalrus</h1>
+            </div>
+            
+            <div id="radio-container">
+                
+                <div id="radio">
+                    <img class="PlayButton" src="http://icons.iconarchive.com/icons/gakuseisean/ivista-2/32/Alarm-Play-icon.png"/>
+                    <marquee scrollamount="3" scrolldelay="10">
+                        <b>Now playing: Iron Maiden - Fear of the Dark</b>
+                    </marquee>
+                    <%--<img class="PlayButton" src="http://icons.iconarchive.com/icons/gakuseisean/ivista-2/32/Alarm-Synchonize-icon.png"/>--%>
+                    
+                    
+                </div>
+                
+                <div id="rate">
+                    <h3>Iron Maiden - Fear of the Dark</h3>
+                    <img id="cover" src="http://www.metal-archives.com/images/3/7/9/379.jpg"/>
+                    <br>
+                    <img class="rate" src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Actions-rating-icon.png"/>
+                    <img class="rate" src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Actions-rating-icon.png"/>
+                    <img class="rate" src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Actions-rating-icon.png"/>
+                    <img class="rate" src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Actions-rating-icon.png"/>
+                    <img class="rate" src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Actions-rating-icon.png"/>
+                </div>
+                
+                <div id ="vote">
+                    <h3>Voten</h3>
+                    <input type ="button" class="VoteButton" value="Queen - - - Killer Queen"><br>
+                    <input type ="button" class="VoteButton" value="Defrage - - - Save us from religion"><br>
+                    <input type ="button" class="VoteButton" value="Alestorm - - - Rum"><br>
+                    <input type ="button" class="VoteButton" value="Orden Ogan - - - Things we believe in"><br>
+                    <input type ="button" class="VoteButton" value="Powerwolf - - - Saturday Satan">
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer">
+                <i>Copyright RadioWalrus Unlimited ltd.</i>
+            </div>
+            
         </div>
-        
-        <div id="vote">
-            <h2>Voten</h2>
-            <ul>
-                <li>Option 1</li>
-                <li>Option 2</li>
-                <li>Option 3</li>
-                <li>Option 4</li>
-                <li>Option 5</li>
-            </ul>
-        </div>
-        
-        <div id="footer"><i>Copyright RadioWalrus Unlimited ltd.</i></div>
 
     </body>
 </html>
